@@ -31,3 +31,5 @@ jobs:
       run: mvn -B compile --file pom.xml
     - name: javadoc with Maven
       run: mvn -B javadoc:javadoc --file pom.xml
+    - name: Execute tests
+      run: mvn -B test  --file pom.xml
