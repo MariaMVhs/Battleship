@@ -12,7 +12,7 @@ public class Barge extends Ship
     public Barge(Compass bearing, IPosition pos)
     {
 	super(Barge.NAME, bearing, pos);
-	getPositions().add(new Position(pos.getRow(), pos.getColumn())
+	getPositions().add(new Position(pos.getRow(), pos.getColumn()));
     }
 
     public Integer getSize()
